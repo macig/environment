@@ -170,4 +170,6 @@ Run Commands:
 
 [Windows Terminal](https://github.com/microsoft/terminal/releases),
 
-[CascadiaCode](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode)
+[CascadiaCode](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode),
+
+[QuickLook](https://github.com/QL-Win/QuickLook/releases)
