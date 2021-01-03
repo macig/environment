@@ -1,4 +1,4 @@
-# vim + tmux + WSL2
+# Vim + Tmux + WSL2
 
 ## Setup Windows WSL2:
 [Official guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10
