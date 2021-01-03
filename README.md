@@ -137,7 +137,7 @@ install plugins: `prefix + I`,
 
 reload: `prefix + R`
 
-### Install && Setup Universal-Ctags
+### Install && Setup Universal-Ctags:
 
 [Docs](https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst)
 
