@@ -167,3 +167,10 @@ Run Commands:
 `mkdir ~/.ctags.d/ && touch ~/.ctags.d/default.ctags`
 
 [vim + ctags](https://kulkarniamit.github.io/whatwhyhow/howto/use-vim-ctags.html)
+
+### In Addition:
+[PowerToys](https://github.com/microsoft/PowerToys/releases/),
+
+[Windows Terminal](https://github.com/microsoft/terminal/releases),
+
+[CascadiaCode](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode)
