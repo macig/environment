@@ -136,3 +136,34 @@ source tmux config: `tmux source ~/.tmux.conf`,
 install plugins: `prefix + I`,
 
 reload: `prefix + R`
+
+### Install && Setup Universal-Ctags
+
+[Docs](https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst)
+
+Install Dependencies:
+
+`sudo apt install \
+    gcc make \
+    pkg-config autoconf automake \
+    python3-docutils \
+    libseccomp-dev \
+    libjansson-dev \
+    libyaml-dev \
+    libxml2-dev`
+    
+Run Commands:
+
+`cd ~/.config/nvim/plugged/ctags/`,
+
+`./autogen.sh`,
+
+`./configure --prefix=$HOME/.config/ctags/`,
+
+`sudo make`,
+
+`sudo make install`,
+
+`mkdir ~/.ctags.d/ && touch ~/.ctags.d/default.ctags`
+
+[vim + ctags](https://kulkarniamit.github.io/whatwhyhow/howto/use-vim-ctags.html)
