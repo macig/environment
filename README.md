@@ -17,7 +17,7 @@ Open PowerShell as Administrator and run:
 `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all
 /norestart`
 
-Restart your machine to complete the WSL install and update to WSL 2.
+**Restart** your machine to complete the WSL install and update to WSL 2.
 
 ### Step 4 - Download the Linux kernel update package:
 [download](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
