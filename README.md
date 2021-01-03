@@ -9,20 +9,17 @@ Open PowerShell as Administrator and run:
 `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux
 /all /norestart`
 
-### Step 2 - Update to WSL 2:
-To update to WSL 2, you must be running Windows 10.
-
-### Step 3 - Enable Virtual Machine feature:
+### Step 2 - Enable Virtual Machine feature:
 Open PowerShell as Administrator and run:
 `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all
 /norestart`
 
 **Restart** your machine to complete the WSL install and update to WSL 2.
 
-### Step 4 - Download the Linux kernel update package:
+### Step 3 - Download the Linux kernel update package:
 [download](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
-### Step 5 - Set WSL 2 as your default version:
+### Step 4 - Set WSL 2 as your default version:
 Open PowerShell and run this command to set WSL 2 as the default version when
 installing a new Linux distribution:
 `wsl --set-default-version 2`
