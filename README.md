@@ -173,3 +173,5 @@ Run Commands:
 [CascadiaCode](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode),
 
 [QuickLook](https://github.com/QL-Win/QuickLook/releases)
+
+[PowerShell Core](https://github.com/PowerShell/PowerShell/releases)
