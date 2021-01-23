@@ -138,16 +138,27 @@ reload: `prefix + R`
 
 [Docs](https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst)
 
-Install Dependencies:
+On Debian-based systems (including Ubuntu), do::
 
-`sudo apt install \
-    gcc make \
-    pkg-config autoconf automake \
-    python3-docutils \
-    libseccomp-dev \
-    libjansson-dev \
-    libyaml-dev \
-    libxml2-dev`
+    $ sudo apt install \
+        gcc make \
+        pkg-config autoconf automake \
+        python3-docutils \
+        libseccomp-dev \
+        libjansson-dev \
+        libyaml-dev \
+        libxml2-dev
+
+On Fedora systems, do::
+
+    $ sudo dnf install \
+        gcc make \
+        pkgconfig autoconf automake \
+        python3-docutils \
+        libseccomp-devel \
+        jansson-devel \
+        libyaml-devel \
+        libxml2-devel
     
 Run Commands:
 
