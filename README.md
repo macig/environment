@@ -138,7 +138,7 @@ reload: `prefix + R`
 
 [Docs](https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst)
 
-On Debian-based systems (including Ubuntu), do::
+On Debian-based systems (including Ubuntu), do:
 
     $ sudo apt install \
         gcc make \
@@ -149,7 +149,7 @@ On Debian-based systems (including Ubuntu), do::
         libyaml-dev \
         libxml2-dev
 
-On Fedora systems, do::
+On Fedora systems, do:
 
     $ sudo dnf install \
         gcc make \
