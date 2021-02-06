@@ -87,6 +87,30 @@ installing a new Linux distribution:
 ### Using NVM:
 [official repo](https://github.com/nvm-sh/nvm)
 
+[Cool Guide](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+
+### Using Bash:
+    $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+    
+### Using Zsh:
+    $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | zsh
+    
+### Souce configFile:
+    $ source ~/.bashrc
+    $ source ~/.zshrc
+    
+### Remote list:
+    $ nvm list-remote
+
+### Local list:
+    $ nvm list
+    
+### Install node version:
+    $ nvm install v13.6.0
+    
+### Select node version for use:
+    $ nvm use v13.6.0
+
 ### Install Gulp:
 `$ sudo npm install --global gulp-cli`
 
