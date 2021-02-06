@@ -83,6 +83,9 @@ installing a new Linux distribution:
 ### Using Debian:
     $ curl -sL https://deb.nodesource.com/setup_14.x | bash -
     sudo apt-get install -y nodejs
+    
+### Using NVM:
+[official repo](https://github.com/nvm-sh/nvm)
 
 ### Install Gulp:
 `$ sudo npm install --global gulp-cli`
