@@ -111,6 +111,9 @@ installing a new Linux distribution:
 ### Select node version for use:
     $ nvm use v13.6.0
 
+### Install Yarn:
+[Install guide](https://yarnpkg.com/getting-started/install)
+
 ### Install Gulp:
 `$ sudo npm install --global gulp-cli`
 
