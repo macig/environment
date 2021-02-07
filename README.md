@@ -120,6 +120,8 @@ installing a new Linux distribution:
     $ nvm use v13.6.0
 
 ### Install Yarn:
+    $ npm install -g yarn
+    
 [Install guide](https://yarnpkg.com/getting-started/install)
 
 ### Install Gulp:
