@@ -30,25 +30,25 @@ installing a new Linux distribution:
 ## Setup Linux Distro:
 
 ### Update and install all Packages:
-`$ sudo apt update && sudo apt upgrade`
+    $ sudo apt update && sudo apt upgrade
 
 ### Install Python3 and pip:
-`$ sudo apt install python3-pip`
+    $ sudo apt install python3-pip
 
 ### How to install pip on ubuntu 20.04:
 [guide](https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/)
 
 ### Install XDG-utils:
-`$ sudo apt install -y xdg-utils`
+    $ sudo apt install -y xdg-utils
 
 ### Install Git:
-`$ sudo apt install git`
+    $ sudo apt install git
 
 ### Install Curl:
-`$ sudo apt install curl`
+    $ sudo apt install curl
 
 ### Install Zip Unzip:
-`$ sudo apt-get install zip unzip`
+    $ sudo apt-get install zip unzip
 
 ### Install Zsh:
 `$ sudo apt install zsh`
@@ -56,7 +56,7 @@ installing a new Linux distribution:
 `$ chsh -s $(which zsh)`
 
 ### Install Oh-My-Zsh:
-`$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+    $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ### Install Autosuggestions:
     $ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -69,7 +69,7 @@ installing a new Linux distribution:
 `$ zplug install`
 
 ### Install Pure Prompt:
-`$ npm install --global pure-prompt`
+    $ npm install --global pure-prompt
 
 ### Manually:
 `$ mkdir -p "$HOME/.zsh"`
@@ -77,7 +77,7 @@ installing a new Linux distribution:
 `$ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"`
 
 ### Install FNM:
-`$ curl -fsSL https://fnm.vercel.app/install | bash`
+    $ curl -fsSL https://fnm.vercel.app/install | bash
 
 [official guide](https://github.com/Schniz/fnm)
 
@@ -104,8 +104,9 @@ installing a new Linux distribution:
     $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | zsh
     
 ### Souce configFile:
-    $ source ~/.bashrc
-    $ source ~/.zshrc
+`$ source ~/.bashrc`
+
+`$ source ~/.zshrc`
     
 ### Remote list:
     $ nvm list-remote
@@ -125,10 +126,10 @@ installing a new Linux distribution:
 [Install guide](https://yarnpkg.com/getting-started/install)
 
 ### Install Gulp:
-`$ sudo npm install --global gulp-cli`
+    $ npm install --global gulp-cli
 
 ### Install Vifm:
-`$ sudo apt install vifm`
+    $ sudo apt install vifm
 
 ### Install Neovim:
 [unstable release](https://launchpad.net/~neovim-ppa/+archive/ubuntu/unstable)
