@@ -47,6 +47,9 @@ installing a new Linux distribution:
 ### Install Curl:
 `$ sudo apt install curl`
 
+### Install Zip Unzip:
+`$ sudo apt-get install zip unzip`
+
 ### Install Zsh:
 `$ sudo apt install zsh`
 
@@ -72,6 +75,11 @@ installing a new Linux distribution:
 `$ mkdir -p "$HOME/.zsh"`
 
 `$ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"`
+
+### Install FNM:
+`$ curl -fsSL https://fnm.vercel.app/install | bash`
+
+[official guide](https://github.com/Schniz/fnm)
 
 ### Install Nodejs:
 [guide](https://github.com/nodesource/distributions/blob/master/README.md)
